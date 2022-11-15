@@ -1,0 +1,90 @@
+html{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.header{
+   position: relative;
+   height: 100vh;
+}
+.my-info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.my-img{
+    border-radius: 50%;
+    box-shadow: 0 0px 10000px #ff3f3f
+}
+.my-name{
+    margin: 0;
+    color: rgb(252, 252, 252);
+    font-size: 2rem;
+}
+.my-name h1{
+    margin-bottom: 5px;
+}
+.identity{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.social-media{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.social-media img{
+    filter: invert(39%) sepia(68%) saturate(4549%) hue-rotate(338deg) brightness(103%) contrast(102%);
+    transition: filter, transform 0.15s;
+}
+.social-media img:hover{
+    filter: invert(31%) sepia(88%) saturate(7452%) hue-rotate(353deg) brightness(106%) contrast(97%);
+    transform: scale(1.2);
+}
+.social-media img:active{
+    filter: invert(39%) sepia(68%) saturate(4549%) hue-rotate(338deg) brightness(103%) contrast(102%);
+}
+.social-media a{
+    padding: 5px;
+}
+.my-talents{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-bottom: 10px;
+}
+.my-talents h3{
+    margin: 0;
+    font-size: 0.95rem;
+    font-weight: 100;
+    padding: 0px 5px 0px 5px;
+}
+.vl {
+    border-left: 2px solid #ff3f3f;
+    height: 20px;
+  }
+  @media only screen and (min-width: 1080px) {
+    html{
+        font-size: 18px;
+    }
+    .social-media img{
+        width: 40px;
+        height: 40px;
+    }
+    .intro{
+        top: 100px;
+  }
+}
