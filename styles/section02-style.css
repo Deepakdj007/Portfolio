@@ -1,0 +1,33 @@
+.my-works{
+position: relative;
+height: 800px;
+}
+.works-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.works-container h1{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 100;
+    margin-top: 100px;
+}
+.board{
+    height: 60%;
+    width: 90%;
+    background: radial-gradient(592px at 48.2% 50%, rgba(41, 0, 0, 0.6) 0%, rgb(5, 5, 5) 74.6%);
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0 0 50px 50px black
+}
